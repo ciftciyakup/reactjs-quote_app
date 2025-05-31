@@ -1,70 +1,190 @@
-# Getting Started with Create React App
+# React.js Random Quote App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**React.js, useState, useEffect Hooks ve Bootstrap** kullanılarak geliştirilmiş, rastgele alıntılar gösteren basit ve şık bir web uygulaması.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🖥️ Kullanılan Teknolojiler
 
-### `npm start`
+**Frontend:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**API:**
 
-### `npm test`
+![api](https://img.shields.io/badge/DummyJSON-FF6B6B?style=for-the-badge&logo=json&logoColor=white)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🎯 Temel Özellikler
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### React Hooks Kullanımı
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **useState Hook**: Alıntı verilerini state'te yönetme
+- **useEffect Hook**: Sayfa yüklendiğinde ilk alıntıyı getirme
+- Modern React fonksiyonel bileşen yapısı
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Kullanıcı Dostu Arayüz
 
-### `npm run eject`
+- Bootstrap ile responsive ve modern tasarım
+- "Yeni Alıntı" butonu ile kolay alıntı değiştirme
+- Mobil uyumlu kart tabanlı düzen
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### API Entegrasyonu
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- DummyJSON API'den rastgele alıntı çekme
+- Fetch API kullanımı
+- Asenkron veri işleme
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Diğer Özellikler
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Hızlı yükleme ve performans
+- Temiz ve anlaşılır kod yapısı
+- Cross-browser uyumluluğu
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📸 Proje Ekran Görüntüleri
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-1-desktop.png" alt="Quote 1 Desktop" height="400"/>
+      <br><em>Desktop</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-1-mobile.png" alt="Quote 1 Mobile" height="400"/>
+      <br><em>Mobil</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-2-desktop.png" alt="Quote 2 Desktop" height="400"/>
+      <br><em>Desktop</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-2-mobile.png" alt="Quote 2 Mobile" height="400"/>
+      <br><em>Mobil</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-3-desktop.png" alt="Quote 3 Desktop" height="400"/>
+      <br><em>Desktop</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-3-mobile.png" alt="Quote 3 Mobile" height="400"/>
+      <br><em>Mobil</em>
+    </td>
+  </tr>
+</table>
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🛠️ Kurulum
 
-### Analyzing the Bundle Size
+1. **Projeyi klonlayın:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   git clone https://github.com/ciftciyakup/reactjs-quote_app.git
+   cd reactjs-quote_app
+   ```
 
-### Making a Progressive Web App
+2. **Bağımlılıkları yükleyin:**
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. **Projeyi başlatın:**
 
-### Advanced Configuration
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. **Tarayıcınızda görüntüleyin:**
+   
+   Uygulama otomatik olarak `http://localhost:3000` adresinde açılacaktır.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📁 Proje Yapısı
 
-### `npm run build` fails to minify
+```
+reactjs-quote_app/
+├── project-images/
+│   ├── quote-1-desktop.png
+│   ├── quote-1-mobile.png
+│   ├── quote-2-desktop.png
+│   ├── quote-2-mobile.png
+│   ├── quote-3-desktop.png
+│   └── quote-3-mobile.png
+├── public/
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+├── src/
+│   ├── App.js
+│   └── index.js
+├── .gitattributes
+├── .gitignore
+├── README.md
+├── package-lock.json
+└── package.json
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 🔧 Kullanılan Scriptler
+
+```bash
+# Geliştirme sunucusunu başlat
+npm start
+
+# Production build oluştur
+npm run build
+
+# Testleri çalıştır
+npm test
+
+# Webpack konfigürasyonunu çıkart
+npm run eject
+```
+
+---
+
+## 📚 Öğrenme Hedefleri
+
+Bu proje aşağıdaki React.js kavramlarını öğrenmek için tasarlanmıştır:
+
+- **useState Hook**: Component state yönetimi
+- **useEffect Hook**: Lifecycle methods ve side effects
+- **Fetch API**: Harici API'lerden veri çekme
+- **Asenkron İşlemler**: Promise ve async/await kullanımı
+- **Bootstrap**: Hızlı ve responsive UI geliştirme
+- **Component Yapısı**: Modern React fonksiyonel bileşenler
+
+---
+
+## 🌐 API Bilgileri
+
+**DummyJSON Quotes API**
+- Endpoint: `https://dummyjson.com/quotes`
+- Ücretsiz ve kayıt gerektirmez
+- 100+ farklı alıntı içerir
+- JSON formatında yazar ve alıntı bilgileri
+
+---
+
+## İletişim
+
+Her türlü soru ve iş birliği için bana ulaşabilirsiniz:
+
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yakup-ciftci)
+[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ciftciyakup)
+
+---
+
+> Bu proje, React.js'in temel hooks'larını öğrenmek ve API entegrasyonu yapmak isteyenler için mükemmel bir başlangıç örneğidir.  
+> Basit yapısı sayesinde kolayca anlaşılabilir ve geliştirilebilir.
