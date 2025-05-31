@@ -1,35 +1,29 @@
 import { useState, useEffect } from "react";
 
-// Bootstrap Classes
-const appClass = "card m-3";
-const cardHeaderClass = "card-header";
-const cardBodyClass = "card-body";
-const blockQuoteClass = "blockquote mb-0";
-const footerClass = "blockquote-footer";
-const buttonClass = "btn btn-primary";
-
 function App() {
   const [quote, setQuote] = useState("");
   const getQuote = () =>
-    fetch("https://type.fit/api/quotes")
+    fetch("https://dummyjson.com/quotes")
       .then((res) => res.json())
-      .then((data) => setQuote(data[Math.round(Math.random() * data.length)]));
+      .then((data) => setQuote(data.quotes[Math.round(Math.random() * data.quotes.length)]));
   useEffect(() => {
     getQuote();
   }, []);
   return (
-    <div className={appClass}>
-      <div className={cardHeaderClass}>Alıntı</div>
-      <div className={cardBodyClass}>
-        <blockquote className={blockQuoteClass}>
-          <p>{quote.text}</p>
-          <footer className={footerClass}>
-            <cite>{quote.author}</cite>
-          </footer>
-          <button className={buttonClass} onClick={getQuote}>
-            Yeni Alıntı
-          </button>
-        </blockquote>
+    <div className="vh-100 d-flex justify-content-center align-items-center">
+      <div className="card m-3">
+        <div className="card-header fs-4">Alıntı</div>
+        <div className="card-body">
+          <blockquote className="blockquote mb-0">
+            <p className="fs-4">{quote.quote}</p>
+            <footer className="blockquote-footer">
+              <cite className="fs-4">{quote.author}</cite>
+            </footer>
+            <button className="btn btn-primary fs-4" onClick={getQuote}>
+              Yeni Alıntı
+            </button>
+          </blockquote>
+        </div>
       </div>
     </div>
   );
