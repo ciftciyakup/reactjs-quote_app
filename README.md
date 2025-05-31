@@ -186,5 +186,5 @@ Her türlü soru ve iş birliği için bana ulaşabilirsiniz:
 
 ---
 
-> Bu proje, React.js'in temel hooks'larını öğrenmek ve API entegrasyonu yapmak isteyenler için mükemmel bir başlangıç örneğidir.  
+> Bu proje, React.js'in temel hooks'larını öğrenmek ve API entegrasyonu yapmak isteyenler için güzel bir başlangıç örneğidir.  
 > Basit yapısı sayesinde kolayca anlaşılabilir ve geliştirilebilir.
