@@ -51,31 +51,31 @@
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-1-desktop.png" alt="Quote 1 Desktop" height="400"/>
+      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-1-desktop.png" alt="Quote 1 Desktop" height="340"/>
       <br><em>Desktop</em>
     </td>
     <td align="center">
-      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-1-mobile.png" alt="Quote 1 Mobile" height="400"/>
+      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-1-mobile.png" alt="Quote 1 Mobile" height="340"/>
       <br><em>Mobil</em>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-2-desktop.png" alt="Quote 2 Desktop" height="400"/>
+      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-2-desktop.png" alt="Quote 2 Desktop" height="340"/>
       <br><em>Desktop</em>
     </td>
     <td align="center">
-      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-2-mobile.png" alt="Quote 2 Mobile" height="400"/>
+      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-2-mobile.png" alt="Quote 2 Mobile" height="340"/>
       <br><em>Mobil</em>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-3-desktop.png" alt="Quote 3 Desktop" height="400"/>
+      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-3-desktop.png" alt="Quote 3 Desktop" height="340"/>
       <br><em>Desktop</em>
     </td>
     <td align="center">
-      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-3-mobile.png" alt="Quote 3 Mobile" height="400"/>
+      <img src="https://github.com/ciftciyakup/reactjs-quote_app/blob/master/project-images/quote-3-mobile.png" alt="Quote 3 Mobile" height="340"/>
       <br><em>Mobil</em>
     </td>
   </tr>
