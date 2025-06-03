@@ -1,6 +1,6 @@
 # React.js Random Quote App
 
-**React.js, useState, useEffect Hooks ve Bootstrap** kullanılarak geliştirilmiş, rastgele alıntılar gösteren basit ve şık bir web uygulaması.
+**React.js ve Bootstrap** kullanılarak geliştirilmiş, rastgele alıntılar gösteren basit ve şık bir web uygulaması.
 
 ---
 
